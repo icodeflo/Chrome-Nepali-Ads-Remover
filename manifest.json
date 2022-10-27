@@ -1,0 +1,192 @@
+{
+    "name": "Nepali ADs Remover",
+    "description": "Removes annoying ads from nepali news websites.",
+    "version": "0.5",
+    "manifest_version": 3,
+    "icons": {
+    "16": "icons/icon16.png",
+    "19": "icons/icon19.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
+  "permissions": [],
+  "content_scripts": [
+    {
+      "run_at" : "document_start",
+      "matches": [
+        "https://*/*"
+      ],
+      "js": [
+        "src/inject/content_scripts.js"
+      ]
+    },
+    {
+      "run_at" : "document_start",
+      "matches": [
+        "https://aajakokhabar.com/*",
+        "https://www.aajakokhabar.com/*",
+        "https://annapurnapost.com/*",
+        "https://www.annapurnapost.com/*",
+        "https://arthasarokar.com/*",
+        "https://www.arthasarokar.com/*",
+        "https://baahrakhari.com/*",
+        "https://www.baahrakhari.com/*",
+        "https://businesssansar.com/*",
+        "https://www.businesssansar.com/*",
+        "https://setopati.com/*",
+        "https://www.setopati.com/*",
+        "https://ekantipur.com/*",
+        "https://www.ekantipur.com/*",
+        "https://hamropatro.com/*",
+        "https://www.hamropatro.com/*",
+        "https://purbelinews.com/*",
+        "https://www.purbelinews.com/*",
+        "https://kathmandupost.com/*",
+        "https://www.kathmandupost.com/*",
+        "https://gorkhapatraonline.com/*",
+        "https://www.gorkhapatraonline.com/*",
+        "https://thahakhabar.com/*",
+        "https://www.thahakhabar.com/*",
+        "https://ratopati.com/*",
+        "https://www.ratopati.com/*",
+        "https://onlinekhabar.com/*",
+        "https://www.onlinekhabar.com/*",
+        "https://hamrobazar.com/*",
+        "https://www.hamrobazar.com/*",
+        "https://news24nepal.tv/*",
+        "https://www.news24nepal.tv/*",
+        "https://nepalipatra.com/*",
+        "https://www.nepalipatra.com/*",
+        "https://nayapatrikadaily.com/*",
+        "https://www.nayapatrikadaily.com/*",
+        "https://ekagaj.com/*",
+        "https://www.ekagaj.com/*",
+        "https://imagekhabar.com/*",
+        "https://www.imagekhabar.com/*",
+        "https://butwalonline.com/*",
+        "https://www.butwalonline.com/*",
+        "https://collegenp.com/*",
+        "https://www.collegenp.com/*",
+        "https://collegesnepal.com/*",
+        "https://www.collegesnepal.com/*",
+        "https://dcnepal.com/*",
+        "https://www.dcnepal.com/*",
+        "https://edusanjal.com/*",
+        "https://www.edusanjal.com/*",
+        "https://etajakhabar.com/*",
+        "https://www.etajakhabar.com/*",
+        "https://goalnepal.com/*",
+        "https://www.goalnepal.com/*",
+        "https://hamrakura.com/*",
+        "https://www.hamrakura.com/*",
+        "https://himalkhabar.com/*",
+        "https://www.himalkhabar.com/*",
+        "https://janaboli.com/*",
+        "https://www.janaboli.com/*",
+        "https://jhapaexpress.com/*",
+        "https://www.jhapaexpress.com/*",
+        "https://kathmandutoday.com/*",
+        "https://www.kathmandutoday.com/*",
+        "https://nepalpress.com/*",
+        "https://www.nepalpress.com/*",
+        "https://nepalkhabar.com/*",
+        "https://www.nepalkhabar.com/*",
+        "https://nagariknetwork.com/*",
+        "https://www.nagariknetwork.com/*",
+        "https://myrepublica.nagariknetwork.com/*",
+        "https://www.myrepublica.nagariknetwork.com/*",
+        "https://techpana.com/*",
+        "https://www.techpana.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "js": [
+        "src/inject/inject.js"
+      ]
+    },
+    {
+      "run_at" : "document_start",
+      "matches": [
+        "https://ratopati.com/*",
+        "https://www.ratopati.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "js": [
+        "src/inject/ratopati_ad_remover.js"
+      ]
+    },
+    {
+      "run_at" : "document_start",
+      "matches": [
+        "https://news24nepal.tv/*",
+        "https://www.news24nepal.tv/*",
+        "https://nepalipatra.com/*",
+        "https://www.nepalipatra.com/*",
+        "https://nayapatrikadaily.com/*",
+        "https://www.nayapatrikadaily.com/*",
+        "https://imagekhabar.com/*",
+        "https://www.imagekhabar.com/*",
+        "https://butwalonline.com/*",
+        "https://www.butwalonline.com/*",
+        "https://butwalonline.com/*",
+        "https://collegenp.com/*",
+        "https://www.collegenp.com/*",
+        "https://collegesnepal.com/*",
+        "https://www.collegesnepal.com/*",
+        "https://edusanjal.com/*",
+        "https://www.edusanjal.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "js": [
+        "src/inject/gif_ad_remover.js"
+      ]
+    },
+    {
+      "run_at" : "document_start",
+      "matches": [
+        "https://ekagaj.com/*",
+        "https://www.ekagaj.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "js": [
+        "src/inject/ekagaj_ad_remover.js"
+      ]
+    },
+    {
+      "run_at" : "document_start",
+      "matches": [
+        "https://collegesnepal.com/*",
+        "https://www.collegesnepal.com/*",
+        "https://edusanjal.com/*",
+        "https://www.edusanjal.com/*",
+        "https://etajakhabar.com/*",
+        "https://www.etajakhabar.com/*",
+        "https://goalnepal.com/*",
+        "https://www.goalnepal.com/*",
+        "https://kathmandutoday.com/*",
+        "https://www.kathmandutoday.com/*",
+        "https://purwanchaldaily.com/*",
+        "https://www.purwanchaldaily.com/*",
+        "https://nepalpress.com/*",
+        "https://www.nepalpress.com/*",
+        "https://nepalkhabar.com/*",
+        "https://www.nepalkhabar.com/*",
+        "https://techpana.com/*",
+        "https://www.techpana.com/*"
+      ],
+      "css": [
+        "src/inject/inject.css"
+      ],
+      "js": [
+        "src/inject/collegesnepal_ad_remover.js"
+      ]
+    }
+  ]
+}

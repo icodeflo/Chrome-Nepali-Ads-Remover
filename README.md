@@ -23,6 +23,46 @@ This extension works for **certain popular sites only** (more websites will be a
 
 4. Browse the internet without seeing annoying ads in Nepali websites
 
+#### Sites that this extension is supposed to work on:
+
+aajakokhabar.com ✔️ 
+annapurnapost.com ✔️
+arthasarokar.com ✔️ 
+baahrakhari.com ✔️ 
+businesssansar.com ✔️ 
+setopati.com ✔️
+ekantipur.com ✔️
+hamropatro.com ✔️
+purbelinews.com ✔️
+kathmandupost.com ✔️
+gorkhapatraonline.com ✔️
+thahakhabar.com ✔️
+ratopati.com ✔️
+hamrobazar.com ✔️
+news24nepal.tv ✔️
+nepalipatra.com ✔️
+nayapatrikadaily.com ✔️
+ekagaj.com ✔️
+imagekhabar.com ✔️
+butwalonline.com ✔️
+collegenp.com ✔️
+collegesnepal.com ✔️
+dcnepal.com ✔️
+edusanjal.com ✔️
+etajakhabar.com ✔️
+goalnepal.com ✔️
+hamrakura.com ✔️
+himalkhabar.com ✔️
+janaboli.com ✔️
+jhapaexpress.com ✔️
+kathmandutoday.com ✔️
+nepalpress.com ✔️
+nepalkhabar.com ✔️
+nagariknetwork.com ✔️
+myrepublica.nagariknetwork.com ✔️
+techpana.com ✔️
+onlinekhabar.com ✔️
+
 #### Contact:
 
 Contact me for any bug fixing and queries through this mail: 

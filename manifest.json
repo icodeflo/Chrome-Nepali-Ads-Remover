@@ -1,7 +1,7 @@
 {
     "name": "Nepali ADs Remover",
     "description": "Removes annoying ads from nepali news websites.",
-    "version": "0.5",
+    "version": "0.6",
     "manifest_version": 3,
     "icons": {
     "16": "icons/icon16.png",
@@ -17,7 +17,7 @@
         "https://*/*"
       ],
       "js": [
-        "src/inject/content_scripts.js"
+        "src/inject/content_script.js"
       ]
     },
     {
@@ -51,8 +51,8 @@
         "https://www.ratopati.com/*",
         "https://onlinekhabar.com/*",
         "https://www.onlinekhabar.com/*",
-        "https://hamrobazar.com/*",
-        "https://www.hamrobazar.com/*",
+        "https://hamrobazaar.com/*",
+        "https://www.hamrobazaar.com/*",
         "https://news24nepal.tv/*",
         "https://www.news24nepal.tv/*",
         "https://nepalipatra.com/*",

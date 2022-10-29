@@ -91,14 +91,18 @@
 .td-header-sp-recs,
 .gam-each-npad,
 .nk-sidebar-ads,
-.topStickMobileAd
+.topStickMobileAd,
+.exampleModalCenter,
+.sponsor-mobile,
+.sticky-ad,
+.top-smart-banner
 {
     display: none !important;
     width: 0 !important;
     height: 0 !important;
     visibility: hidden !important;
 }
-#roadblock-ad, #block-ad
+#roadblock-ad, #block-ad, #exampleModalCenter
 {
     display: none !important;
     width: 0 !important;
